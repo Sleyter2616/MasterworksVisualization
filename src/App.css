@@ -1,3 +1,5 @@
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.table-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.MapVisualization{
+  height: 600px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.leaflet-popup-content {
+  display: block !important;
+  visibility: visible !important;
 }
